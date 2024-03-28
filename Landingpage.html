@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PineApple - Product Landing Page</title>
+    <link rel="stylesheet" href="Landingpage.css">
+
+</head>
+
+<body>
+
+    <header>
+            <img src="https://cdn.dribbble.com/users/3377233/screenshots/6224031/running_pineapple.gif" alt="PineApple"style = "width:100px;height:100px;">
+            <h1>PineApple</h1>
+            
+             
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#smartphones">Smartphones</a></li>
+            <li><a href="#airpods">AirPods</a></li>
+        </ul>
+    </nav>
+
+    <section id="smartphones" class="product-section">
+        <h2>Smartphones</h2>
+        <div class="product-container">
+            <img class="product-image" src="https://m.media-amazon.com/images/I/61SEbQm6zUL.jpg" alt="Smartphone 1 Image"style = "width:300px;height:300px;">
+            <div class="product-details">
+                <h3>Smart Pro3 2023</h3>
+                <b>Colour-Sky Blue</b>
+                <p>4GB RAM,64GB Storage | 5000 mAh Battery | 10MP Dual Camera | Made in India  </p>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p>Price: &#8377;29,999</p>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <button class="fa fa-shopping-cart" style="font-size:24px" onclick="addToCart('Smart Pro3 2023')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-container">
+            <img class="product-image" src="https://c4.wallpaperflare.com/wallpaper/953/97/219/samsung-galaxy-f-foldable-smartphone-hd-wallpaper-preview.jpg" alt="Smartphone 2 Image"style = "width:300px;height:300px;">
+            <div class="product-details">
+                <h3>Smart Pro4 2024</h3>
+                <b>Colour-Crystal Black </b>
+                <P>6GB RAM,128GB Storage | 10W Type-C | Side Fingerprint Sensor | Triple Camera </P>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>
+                <p>Price: &#8377;36,499</p>
+                <button class="fa fa-shopping-cart" style="font-size:24px"  onclick="addToCart('Smart Pro3 2024')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="airpods" class="product-section">
+        <h2>AirPods</h2>
+        <div class="product-container">
+            <img class="product-image" src="https://m.media-amazon.com/images/I/61yoB0S2RjL._AC_UF1000,1000_QL80_.jpg" alt="AirPods 1 Image"style = "width:300px;height:300px;">
+            <div class="product-details">
+                <h3>pineapple VoiceTech Pro </h3>
+                <b>Colour-Active Black</b>
+                <p>Low Latency Gaming | Type C Fast Charging | Made in India</p>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>Price: &#8377;2,999</p>
+                <button class="fa fa-shopping-cart" style="font-size:24px" onclick="addToCart('pineapple NoiseTech')">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <img class="product-image" src="https://villman.com/product_photos/ezgif-4-4377cdaf7da4_qxpia.gif" alt="AirPods 2 Image"style = "width:300px;height:300px;">
+            <div class="product-details">
+                <h3>pineapple NoiseTech  </h3>
+                <b>Colour-Clear White</b>
+                <p>10min Fast Charging | Bluetooth Wireless Earphones | Water Resistance</p>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p>Price:&#8377; 1,999</p>
+                <button class="fa fa-shopping-cart" style="font-size:24px" onclick="addToCart('pineapple NoiseTech Pro')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 PineApple. All rights reserved.
+    </footer>
+
+    <script>
+        function addToCart(productName) {
+            alert(productName + ' added to cart!');
+        }
+    </script>
+
+</body>
+</html>

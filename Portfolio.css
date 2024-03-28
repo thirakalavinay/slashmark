@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/soft-brown-watercolor-texture-design-background-vector_1055-10712.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705881600&semt=ais'); 
+    background-size: cover; 
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.site-title {
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: none;
+    font-size: 20px;
+}
+.contact-info a {
+    color: #fafcfd; /* Change this color to your preferred color */
+}
+.emoji {
+    font-size: 1em; /* Adjust the size as needed */
+}
+
+.about-me,
+.skills,
+.projects {
+    padding: 10px;
+    margin: 10px 0;
+}
+.skills h2 {
+    color: rgb(199, 47, 204); /* Change the color code to your preferred color */
+}
+
+.projects h2 {
+    color: rgb(199, 47, 204); /* Change the color code to your preferred color */
+}
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.about-me img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.short-note {
+    text-align: left;
+}
+.short-note h2{
+color: rgb(199, 47, 204);
+}
+
+.short-note{
+font-size: 18px;
+letter-spacing: 1px;
+line-height: 24px;
+}
+
+.skills ul,
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li,
+.projects li {
+    margin: 5px 0;
+}
+.skills li {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+/* Existing styles remain unchanged */
+
+.hire-me-btn {
+    display: block;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #27ae60;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
